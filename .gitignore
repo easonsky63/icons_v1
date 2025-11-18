@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+
+# Environment files
+# Ignore all .env files by default
+.env
+.env.*
+.env.local
+.env.*.local
+.env.development
+
+# Except for templates and development config (no sensitive data)
+!.env.example
+# 仅保留模板，不跟踪本地开发环境文件
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.venv/
+venv/
+.coverage
+coverage.xml
+
+
+# IDE & editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Local databases / artifacts
+*.sqlite*
+*.db
+
+# Keys & certs
+*.pem
+*.key
+*.crt
+secrets/
