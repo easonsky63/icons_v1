@@ -1,0 +1,870 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-11-18T07:54:23.154444+00:00",
+  "chains": [
+    {
+      "name": "Aptos",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "aptos",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/aptos_info/logo.png",
+      "website": "https://aptoslabs.com",
+      "description": "Building the safest and most scalable Layer 1 blockchain.",
+      "explorer": "https://explorer.aptoslabs.com",
+      "nativeCurrency": {
+        "name": "Aptos",
+        "symbol": "APT",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Arbitrum",
+      "shortName": "arb1",
+      "chain": "ETH",
+      "chainSlug": "arbitrum",
+      "chainId": 42161,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/arbitrum_info/logo.png",
+      "website": "https://offchainlabs.com",
+      "description": "Arbitrum is a Layer 2 cryptocurrency platform that makes smart contracts scalable, fast, and private",
+      "explorer": "https://arbiscan.io",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Avalanche C-Chain",
+      "shortName": "avax",
+      "chain": "AVAX",
+      "chainSlug": "avalanche",
+      "chainId": 43114,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/avalanchec_info/logo.png",
+      "website": "http://avax.network",
+      "description": "Avalanche is an open-source platform for launching highly decentralized applications, new financial primitives, and new interoperable blockchains. This is the C-Chain, the default smart contract blockchain on Avalanche that enables the creation of any Ethereum-compatible smart contracts.",
+      "explorer": "https://explorer.avax.network",
+      "nativeCurrency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Avalanche C-Chain Fuji Testnet",
+      "shortName": "avax",
+      "chain": "AVAX",
+      "chainSlug": "avalanche",
+      "chainId": 43114,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/avalanchecfuji_info/logo.png",
+      "website": "https://avax.network",
+      "description": "Avalanche is an open-source platform for launching Decentralized Finance (DeFi) applications and enterprise blockchain deployments in an interoperable, highly scalable ecosystem.",
+      "explorer": "https://testnet.snowtrace.io/",
+      "nativeCurrency": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Avalanche X-Chain",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "avalanchex",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/avalanchex_info/logo.png",
+      "website": "http://avax.network",
+      "description": "Avalanche is an open-source platform for launching highly decentralized applications, new financial primitives, and new interoperable blockchains. This is the X-Chain, the default asset blockchain on Avalanche and enables the creation of new assets, exchanging between assets, and cross-subnet transfers.",
+      "explorer": "https://explorer.avax.network",
+      "nativeCurrency": {
+        "name": "Avalanche X-Chain",
+        "symbol": "AVAX",
+        "decimals": 9
+      }
+    },
+    {
+      "name": "Base",
+      "shortName": "base",
+      "chain": "ETH",
+      "chainSlug": "base",
+      "chainId": 8453,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/base_info/logo.png",
+      "website": "https://base.org",
+      "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+      "explorer": "https://basescan.org",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Bitcoin",
+      "shortName": "Bitcoin",
+      "chain": "BTC",
+      "chainSlug": "bitcoin",
+      "chainId": 8086,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/bitcoin_info/logo.png",
+      "website": "https://bitcoin.org",
+      "description": "Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency, as the system works without a central bank or single administrator.",
+      "explorer": "https://blockchain.info",
+      "nativeCurrency": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Bitcoin Cash",
+      "shortName": "smartbch",
+      "chain": "smartBCH",
+      "chainSlug": "smartbch",
+      "chainId": 10000,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/bitcoincash_info/logo.png",
+      "website": "https://bitcoincash.org/",
+      "description": "Bitcoin ABC is an electronic cash platform that allows peer-to-peer online cash payments. It is a fork (a copy in a way) of Bitcoin (BTC).",
+      "explorer": "https://blockchair.com/bitcoin-cash",
+      "nativeCurrency": {
+        "name": "Bitcoin Cash",
+        "symbol": "BCH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Bitcoin Gold",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "bitcoingold",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/bitcoingold_info/logo.png",
+      "website": "https://bitcoingold.org/",
+      "description": "Bitcoin Gold is a Hard Fork of Bitcoin. BTG implements a new PoW algorithm, Equihash, that makes mining decentralized again with ASIC resistant algorithm.",
+      "explorer": "https://explorer.bitcoingold.org/insight/",
+      "nativeCurrency": {
+        "name": "Bitcoin Gold",
+        "symbol": "BTG",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Blast",
+      "shortName": "blastmainnet",
+      "chain": "ETH",
+      "chainSlug": "blast",
+      "chainId": 81457,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/blast_info/logo.png",
+      "website": "https://blast.io/en",
+      "description": "Blast is the only Ethereum L2 with native yield for ETH and stablecoins.",
+      "explorer": "https://blastscan.io",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Cardano",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "cardano",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/cardano_info/logo.png",
+      "website": "https://cardano.org",
+      "description": "Cardano (ADA) is a decentralized platform that will allow complex programmable transfers of value in a secure and scalable fashion. Cardano is built in the secure Haskell programming language.",
+      "explorer": "https://cardanoexplorer.com/",
+      "nativeCurrency": {
+        "name": "Cardano",
+        "symbol": "ADA",
+        "decimals": 6
+      }
+    },
+    {
+      "name": "Celo",
+      "shortName": "celo",
+      "chain": "CELO",
+      "chainSlug": "celo",
+      "chainId": 42220,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/celo_info/logo.png",
+      "website": "https://celo.org/",
+      "description": "Celo is an open platform that makes financial tools accessible to anyone with a mobile phone",
+      "explorer": "https://explorer.celo.org/",
+      "nativeCurrency": {
+        "name": "CELO",
+        "symbol": "CELO",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Ethereum Classic",
+      "shortName": "etc",
+      "chain": "ETC",
+      "chainSlug": "ethereumclassic",
+      "chainId": 61,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/classic_info/logo.png",
+      "website": "https://ethereumclassic.org/",
+      "description": "Ethereum Classic is an open-source, public, blockchain-based distributed computing platform featuring smart contract functionality.It is a continuation of the original Ethereum blockchain.",
+      "explorer": "https://blockscout.com/etc/mainnet/",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETC",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Cosmos",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "cosmos",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/cosmos_info/logo.png",
+      "website": "https://cosmos.network/",
+      "description": "Cosmos is a secure & scalable blockchain ecosystem where thousands of dApps interoperate to create the foundation for a new token economy.",
+      "explorer": "https://www.mintscan.io/",
+      "nativeCurrency": {
+        "name": "Cosmos",
+        "symbol": "ATOM",
+        "decimals": 6
+      }
+    },
+    {
+      "name": "Dash",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "dash",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/dash_info/logo.png",
+      "website": "https://dash.org/",
+      "description": "Dash (DASH) is digital cash designed to offer financial freedom to everyone. Payments are instant, easy and secure, with near-zero fees.",
+      "explorer": "https://blockchair.com/dash",
+      "nativeCurrency": {
+        "name": "Dash",
+        "symbol": "DASH",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Dogecoin",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "doge",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/doge_info/logo.png",
+      "website": "http://dogecoin.com",
+      "description": "Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide. Introduced as a joke currency on 6 December 2013, Dogecoin quickly developed its own online community.",
+      "explorer": "https://blockchair.com/dogecoin",
+      "nativeCurrency": {
+        "name": "Dogecoin",
+        "symbol": "DOGE",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "EOS",
+      "shortName": "eos",
+      "chain": "EOS",
+      "chainSlug": "eos evm",
+      "chainId": 17777,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/eos_info/logo.png",
+      "website": "https://eos.io",
+      "description": "EOS is a cryptocurrency token and blockchain that operates as a smart contract platform for the deployment of decentralized applications and decentralized autonomous corporations.",
+      "explorer": "https://bloks.io/",
+      "nativeCurrency": {
+        "name": "EOS",
+        "symbol": "EOS",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Ethereum",
+      "shortName": "eth",
+      "chain": "ETH",
+      "chainSlug": "ethereum",
+      "chainId": 1,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/ethereum_info/logo.png",
+      "website": "https://ethereum.org/",
+      "description": "Open source platform to write and distribute decentralized applications.",
+      "explorer": "https://etherscan.io/",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "EthereumPoW",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "ethereumpow",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/ethereumpow_info/logo.png",
+      "website": "https://ethereumpow.org/",
+      "description": "The Original Ethereum Blockchain powered by Proof of Work",
+      "explorer": "https://www.oklink.com/en/ethw",
+      "nativeCurrency": {
+        "name": "EthereumPoW",
+        "symbol": "ETHW",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Fantom",
+      "shortName": "ftm",
+      "chain": "FTM",
+      "chainSlug": "fantom",
+      "chainId": 250,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/fantom_info/logo.png",
+      "website": "https://fantom.foundation",
+      "description": "A DAG-Based Smart-Contract Platform.",
+      "explorer": "https://ftmscan.com",
+      "nativeCurrency": {
+        "name": "Fantom",
+        "symbol": "FTM",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Filecoin",
+      "shortName": "filecoin",
+      "chain": "FIL",
+      "chainSlug": "filecoin",
+      "chainId": 314,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/filecoin_info/logo.png",
+      "website": "https://filecoin.io",
+      "description": "Filecoin provides a blockchain-based marketplace that aims to revolutionize the global storage economy.",
+      "explorer": "https://filfox.info/",
+      "nativeCurrency": {
+        "name": "filecoin",
+        "symbol": "FIL",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Internet Computer",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "internet_computer",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/internet_computer_info/logo.png",
+      "website": "https://internetcomputer.org",
+      "description": "World Computer blockchain that reimagines the internet as an infinite smart contract platform",
+      "explorer": "https://dashboard.internetcomputer.org",
+      "nativeCurrency": {
+        "name": "Internet Computer",
+        "symbol": "ICP",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Linea",
+      "shortName": "linea",
+      "chain": "ETH",
+      "chainSlug": "linea",
+      "chainId": 59144,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/linea_info/logo.png",
+      "website": "https://linea.build",
+      "description": "Linea is a network that scales the experience of Ethereum.",
+      "explorer": "https://explorer.linea.build",
+      "nativeCurrency": {
+        "name": "Linea Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Litecoin",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "litecoin",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/litecoin_info/logo.png",
+      "website": "https://litecoin.org/",
+      "description": "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.",
+      "explorer": "https://blockchair.com/litecoin",
+      "nativeCurrency": {
+        "name": "Litecoin",
+        "symbol": "LTC",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "Manta Pacific",
+      "shortName": "manta",
+      "chain": "Manta Pacific",
+      "chainSlug": "manta",
+      "chainId": 169,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/manta_info/logo.png",
+      "website": "https://pacific.manta.network",
+      "description": "The first EVM-native modular execution layer for wide ZK applications adoption, with Manta’s universal circuit and zk interface.",
+      "explorer": "https://pacific-explorer.manta.network",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Mantle Chain",
+      "shortName": "mantle",
+      "chain": "ETH",
+      "chainSlug": "mantle",
+      "chainId": 5000,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/mantle_info/logo.png",
+      "website": "https://www.mantle.xyz",
+      "description": "Mantle Network is a technology stack for scaling Ethereum, and we strive to be EVM-compatible while doing so.",
+      "explorer": "https://explorer.mantle.xyz/blocks",
+      "nativeCurrency": {
+        "name": "Mantle",
+        "symbol": "MNT",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Merlin Mainnet",
+      "shortName": "Merlin-Mainnet",
+      "chain": "Merlin",
+      "chainSlug": "merlin",
+      "chainId": 4200,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/merlin_info/logo.png",
+      "website": "https://merlinchain.iov",
+      "description": "Merlin Chain is a Bitcoin Layer 2 that integrates the ZK-Rollup network, decentralized oracle network, Data Availability, and on-chain BTC fraud proof modules.",
+      "explorer": "https://scan.merlinchain.io",
+      "nativeCurrency": {
+        "name": "BTC",
+        "symbol": "BTC",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Metis",
+      "shortName": "metis-andromeda",
+      "chain": "ETH",
+      "chainSlug": "metis",
+      "chainId": 1088,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/metis_info/logo.png",
+      "website": "https://www.metis.io",
+      "description": "Metis is an easy-to-use, highly scalable, low-cost, and fully functional Layer 2 framework to fully support the application and business migration from Web 2.0 to Web 3.0",
+      "explorer": "https://andromeda-explorer.metis.io",
+      "nativeCurrency": {
+        "name": "Metis",
+        "symbol": "METIS",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "NEAR Protocol",
+      "shortName": "near",
+      "chain": "NEAR",
+      "chainSlug": "near",
+      "chainId": 397,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/near_info/logo.png",
+      "website": "https://near.org",
+      "description": "NEAR is an open source platform that accelerates the development of decentralized applications.",
+      "explorer": "https://explorer.near.org/",
+      "nativeCurrency": {
+        "name": "NEAR",
+        "symbol": "NEAR",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "OKX Chain",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "okc",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/okc_info/logo.png",
+      "website": "https://www.okx.com/okc",
+      "description": "OKC is a secure & programmable smart contracts platform for next-generation decentralized applications, backed by OKX, one of the largest crypto exchanges.",
+      "explorer": "https://www.oklink.com/en/okc/",
+      "nativeCurrency": {
+        "name": "OKX Chain",
+        "symbol": "OKT",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "OKXChain Mainnet",
+      "shortName": "okt",
+      "chain": "okxchain",
+      "chainSlug": "okexchain",
+      "chainId": 66,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/okx_info/logo.png",
+      "website": "https://www.okx.com/",
+      "description": "OKB is a global utility token issued by OK Blockchain foundation.",
+      "explorer": "https://www.oklink.com/oktc",
+      "nativeCurrency": {
+        "name": "OKXChain Global Utility Token",
+        "symbol": "OKT",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "OKC Token",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "okxchain",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/okxchain_info/logo.png",
+      "website": "https://www.okx.com/okc",
+      "description": "OKC is a secure & programmable smart contracts platform for the next-gen Web3 applications.",
+      "explorer": "https://www.oklink.com/en/",
+      "nativeCurrency": {
+        "name": "OKC Token",
+        "symbol": "OKT",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "opBNB",
+      "shortName": "obnb",
+      "chain": "opBNB",
+      "chainSlug": "op_bnb",
+      "chainId": 204,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/opbnb_info/logo.png",
+      "website": "https://opbnb.bnbchain.org/en",
+      "description": "An Optimized Layer-2 Solution That Delivers Lower Fees And Higher Throughput To Unlock The Full Potential Of The BNB Chain.",
+      "explorer": "https://opbnbscan.com/",
+      "nativeCurrency": {
+        "name": "BNB Chain Native Token",
+        "symbol": "BNB",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Optimistic Ethereum",
+      "shortName": "oeth",
+      "chain": "ETH",
+      "chainSlug": "optimism",
+      "chainId": 10,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/optimism_info/logo.png",
+      "website": "https://optimism.io/",
+      "description": "Optimism is a Layer 2 scaling solution for Ethereum.",
+      "explorer": "https://optimistic.etherscan.io",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Osmosis",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "osmosis",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/osmosis_info/logo.png",
+      "website": "https://osmosis.zone/",
+      "description": "Osmosis is an automated market maker (AMM) protocol in the Cosmos ecosystem",
+      "explorer": "https://www.mintscan.io/osmosis",
+      "nativeCurrency": {
+        "name": "Osmosis",
+        "symbol": "OSMO",
+        "decimals": 6
+      }
+    },
+    {
+      "name": "Plasma",
+      "shortName": "plasma",
+      "chain": "Plasma",
+      "chainSlug": "plasma",
+      "chainId": 9745,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/plasma_info/logo.png",
+      "website": "https://www.plasma.to/",
+      "description": "Plasma is a high performance Layer 1 blockchain that is purpose built for global stablecoin payments. XPL is the native token of the Plasma blockchain, which will be used to facilitate and be used in transactions as well as rewarding those who provide network support by validating transactions.",
+      "explorer": "https://plasmascan.to/",
+      "nativeCurrency": {
+        "name": "Plasma",
+        "symbol": "XPL",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Polkadot",
+      "shortName": "bnc",
+      "chain": "Bifrost",
+      "chainSlug": "bifrost",
+      "chainId": 996,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/polkadot_info/logo.png",
+      "website": "https://polkadot.network",
+      "description": "Polkadot is a blockchain project that aims to connect blockchains, to enable the transfer of value and logic across chains. DOT is the native coin of the network.",
+      "explorer": "http://polkascan.io",
+      "nativeCurrency": {
+        "name": "Wrapped ETH",
+        "symbol": "WETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "POL (ex-MATIC)",
+      "shortName": "pol",
+      "chain": "Polygon",
+      "chainSlug": "polygon",
+      "chainId": 137,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/polygon_info/logo.png",
+      "website": "https://polygon.technology/",
+      "description": "Polygon (Matic) strives to solve the scalability and usability issues, while not compromising on decentralization and leveraging the existing developer community and ecosystem",
+      "explorer": "https://polygonscan.com/",
+      "nativeCurrency": {
+        "name": "POL",
+        "symbol": "POL",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Polygon zkEVM",
+      "shortName": "zkevm",
+      "chain": "Polygon",
+      "chainSlug": "polygon zkevm",
+      "chainId": 1101,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/polygonzkevm_info/logo.png",
+      "website": "https://www.polygon.technology/",
+      "description": "Polygon zkEVM is the leading zero knowledge scaling solution that’s fully equivalent with the Ethereum Virtual Machine: all existing smart contracts, developer tools, and wallets work seamlessly.",
+      "explorer": "https://polygon.technology/polygon-zkevm",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "XRP",
+      "shortName": "xrplevm",
+      "chain": "XRPL",
+      "chainSlug": "ripple",
+      "chainId": 1440000,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/ripple_info/logo.png",
+      "website": "https://ripple.com/xrp/",
+      "description": "Instantly move money to all corners of the world.",
+      "explorer": "https://xrpcharts.ripple.com/#/graph/",
+      "nativeCurrency": {
+        "name": "XRP",
+        "symbol": "XRP",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Scroll",
+      "shortName": "scr",
+      "chain": "ETH",
+      "chainSlug": "scroll",
+      "chainId": 534352,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/scroll_info/logo.png",
+      "website": "https://scroll.io",
+      "description": "Scroll is a zkEVM-based zkRollup on Ethereum that enables native compatibility for existing Ethereum applications and tools.",
+      "explorer": "https://blockscout.scroll.io",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Sei",
+      "shortName": "sei",
+      "chain": "Sei",
+      "chainSlug": "sei",
+      "chainId": 1329,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/sei_info/logo.png",
+      "website": "https://sei.io",
+      "description": "Sei is the fastest blockchain to finality, magnitudes faster than the rest.",
+      "explorer": "https://www.mintscan.io/sei/",
+      "nativeCurrency": {
+        "name": "Sei",
+        "symbol": "SEI",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "BNB Smart Chain",
+      "shortName": "bnb",
+      "chain": "BSC",
+      "chainSlug": "binance",
+      "chainId": 56,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/smartchain_info/logo.png",
+      "website": "https://www.bnbchain.world/en/smartChain",
+      "description": "A blockchain with a full-fledged environment for developing high-performance decentralized applications and cross-chain compatibility with Binance Chain.",
+      "explorer": "https://bscscan.com/",
+      "nativeCurrency": {
+        "name": "BNB Chain Native Token",
+        "symbol": "BNB",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Solana",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "solana",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/solana_info/logo.png",
+      "website": "https://solana.com/",
+      "description": "Solana is the worlds most performant blockchain in the world at 710k transactions per second. 710k TPS is achieved by encoding the passage of time as data.",
+      "explorer": "https://explorer.solana.com/",
+      "nativeCurrency": {
+        "name": "Solana",
+        "symbol": "SOL",
+        "decimals": 9
+      }
+    },
+    {
+      "name": "Sonic",
+      "shortName": "sonic",
+      "chain": "sonic",
+      "chainSlug": "sonic",
+      "chainId": 146,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/sonic_info/logo.png",
+      "website": "https://www.soniclabs.com/",
+      "description": "Sonic is the highest-performing EVM L1",
+      "explorer": "https://sonicscan.org/",
+      "nativeCurrency": {
+        "name": "Sonic",
+        "symbol": "S",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Stellar",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "stellar",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/stellar_info/logo.png",
+      "website": "https://stellar.org",
+      "description": "Stellar is an open platform for building financial products. It enables near instant payments, with almost zero fees, and a smart contract platform to create digital asset economy.",
+      "explorer": "https://dashboard.stellar.org/",
+      "nativeCurrency": {
+        "name": "Stellar",
+        "symbol": "XLM",
+        "decimals": 7
+      }
+    },
+    {
+      "name": "Sui",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "sui",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/sui_info/logo.png",
+      "website": "https://sui.io/",
+      "description": "Sui is a boundless platform to build rich and dynamic on-chain assets from gaming to finance.",
+      "explorer": "https://explorer.sui.io/",
+      "nativeCurrency": {
+        "name": "Sui",
+        "symbol": "SUI",
+        "decimals": 9
+      }
+    },
+    {
+      "name": "Celestia",
+      "shortName": "opcelestia-raspberry",
+      "chain": "ETH",
+      "chainSlug": "tia",
+      "chainId": 123420111,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/tia_info/logo.png",
+      "website": "https://celestia.org",
+      "description": "Celestia is a modular data availability network that securely scales with the number of users, making it easy for anyone to launch their own blockchain.",
+      "explorer": "https://www.mintscan.io/celestia",
+      "nativeCurrency": {
+        "name": "Sepolia Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "The Open Network",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "ton",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/ton_info/logo.png",
+      "website": "https://ton.org",
+      "description": "The Open Network is a blockchain-based decentralized computer network. TON is designed to enable processing millions of transactions per second via infinite sharding paradigm. It allows building Web 3.0 empowered by decentralized storage and DNS, instant payments and decentralized services.",
+      "explorer": "https://tonscan.org/",
+      "nativeCurrency": {
+        "name": "The Open Network",
+        "symbol": "TON",
+        "decimals": 9
+      }
+    },
+    {
+      "name": "TRON",
+      "shortName": "tron",
+      "chain": "TRON",
+      "chainSlug": "tron",
+      "chainId": 728126428,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/tron_info/logo.png",
+      "website": "https://tron.network/",
+      "description": "TRON is dedicated to building the infrastructure for a truly decentralized Internet.",
+      "explorer": "https://tronscan.io/#/",
+      "nativeCurrency": {
+        "name": "Tron",
+        "symbol": "TRX",
+        "decimals": 6
+      }
+    },
+    {
+      "name": "Gnosis Chain",
+      "shortName": "gno",
+      "chain": "GNO",
+      "chainSlug": "xdai",
+      "chainId": 100,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/xdai_info/logo.png",
+      "website": "https://xdaichain.com",
+      "description": "The first-ever USD stable blockchain and multi-chain staking token.",
+      "explorer": "https://blockscout.com/poa/xdai",
+      "nativeCurrency": {
+        "name": "xDAI",
+        "symbol": "XDAI",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "XRPL EVM Sidechain",
+      "shortName": "xrplevm",
+      "chain": "XRPL",
+      "chainSlug": "xrplevm",
+      "chainId": 1440000,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/xrplevm_info/logo.png",
+      "website": "https://xrplevm.org",
+      "description": "The XRPL EVM Sidechain is a cosmos-evm blockchain funded by Ripple and built by Peersyst that uses bridged XRP via Axelar from the XRPL as native currency. ",
+      "explorer": "https://explorer.xrplevm.org",
+      "nativeCurrency": {
+        "name": "XRP",
+        "symbol": "XRP",
+        "decimals": 18
+      }
+    },
+    {
+      "name": "Zcash",
+      "shortName": "",
+      "chain": "",
+      "chainSlug": "zcash",
+      "chainId": 0,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/zcash_info/logo.png",
+      "website": "https://z.cash",
+      "description": "Zcash is a decentralized and open-source cryptocurrency that provides strong privacy protections. Shielded transactions hide the sender, recipient, and value on the blockchain.",
+      "explorer": "https://explorer.zcha.in",
+      "nativeCurrency": {
+        "name": "Zcash",
+        "symbol": "ZEC",
+        "decimals": 8
+      }
+    },
+    {
+      "name": "ZkSync Era",
+      "shortName": "zksync",
+      "chain": "ETH",
+      "chainSlug": "zksync era",
+      "chainId": 324,
+      "logo": "https://raw.githubusercontent.com/easonsky63/icons_v1/refs/heads/main/chains/zksync_info/logo.png",
+      "website": "https://zksync.io/",
+      "description": "zkSync Era is made to look and feel like Ethereum, but with lower fees.",
+      "explorer": "https://explorer.zksync.io/",
+      "nativeCurrency": {
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18
+      }
+    }
+  ]
+}
