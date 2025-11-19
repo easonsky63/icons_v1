@@ -16,6 +16,12 @@ SPECIAL_CHAIN_IDS = {
     'ripple': -99,
     'solana': -101,  # Solana mainnet
     'sui': -102,     # Sui mainnet
+    'aptos': -103,   # Aptos mainnet
+    'cardano': -104, # Cardano mainnet
+    'ton': -105,     # TON mainnet
+    'tron': -106,    # TRON mainnet
+    'okc': -107,     # OKC mainnet
+    'opbnb': -108,   # opBNB mainnet
 }
 
 # Chain name mapping - for directories that don't match chainSlug exactly
