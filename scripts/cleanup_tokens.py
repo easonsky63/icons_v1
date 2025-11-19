@@ -246,6 +246,48 @@ def main():
 if __name__ == '__main__':
     import sys
 
+    # Support auto mode (skip confirmations)
+    if len(sys.argv) > 1 and sys.argv[1] == '--auto':
+        script_dir = Path(__file__).parent
+        project_root = script_dir.parent
+        tokens_dir = project_root / 'tokens'
+
+        print("AUTO MODE - Executing all cleanup operations")
+        print("=" * 60)
+        print()
+
+        # Step 1: Delete tokens with unwanted tags
+        print("Step 1: Finding tokens with unwanted tags...")
+        unwanted_tags = {'memes', 'gamefi', 'deflationary', 'dapp', 'defletionary', 'privacy'}
+        tokens_to_delete = find_tokens_by_tags(tokens_dir, unwanted_tags)
+        print(f"Found {len(tokens_to_delete)} tokens with unwanted tags")
+        if tokens_to_delete:
+            deleted = delete_tokens(tokens_to_delete, dry_run=False)
+            print(f"✓ Deleted {deleted} tokens with unwanted tags")
+        print()
+
+        # Step 2: Delete tokens without tags
+        print("Step 2: Finding tokens without tags...")
+        tokens_without_tags = find_tokens_without_tags(tokens_dir)
+        print(f"Found {len(tokens_without_tags)} tokens without tags")
+        if tokens_without_tags:
+            deleted = delete_tokens(tokens_without_tags, dry_run=False)
+            print(f"✓ Deleted {deleted} tokens without tags")
+        print()
+
+        # Step 3: Standardize tags
+        print("Step 3: Standardizing tag names...")
+        tag_mappings = {'DeFi': 'defi', 'Stablecoin': 'stablecoin'}
+        updated = standardize_tags(tokens_dir, tag_mappings, dry_run=False)
+        print(f"✓ Standardized tags in {updated} tokens")
+        print()
+
+        print("=" * 60)
+        print("✓ Cleanup completed successfully!")
+        print("=" * 60)
+
+        sys.exit(0)
+
     # Support dry-run mode
     if len(sys.argv) > 1 and sys.argv[1] == '--dry-run':
         script_dir = Path(__file__).parent

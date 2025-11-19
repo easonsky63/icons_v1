@@ -106,3 +106,20 @@ scripts/
 └── output/
     └── aggregated_chains.json
 ```
+
+
+新增 token 后，只需运行以下命令即可重新聚合：
+
+  python3 scripts/aggregate_tokens.py
+
+  操作步骤：
+
+  1. 新增 token 文件夹
+  tokens/{chain_name}/{token_address}/
+  ├── info.json
+  └── logo.png
+  2. 执行脚本
+  cd /Users/zhengwang/Programming/icons_v1
+  python3 scripts/aggregate_tokens.py
+  3. 输出
+    - 更新后的聚合文件: scripts/output/aggregated_tokens.json

@@ -14,6 +14,14 @@ from typing import Dict, List, Optional
 # Chain ID mapping - special handling for non-standard chains
 SPECIAL_CHAIN_IDS = {
     'ripple': -99,
+    'solana': -101,  # Solana mainnet
+    'sui': -102,     # Sui mainnet
+}
+
+# Chain name mapping - for directories that don't match chainSlug exactly
+CHAIN_NAME_MAPPING = {
+    'avalanchec': 'avalanche',    # avalanchec → Avalanche C-Chain
+    'zksync': 'zksync era',       # zksync → zkSync Mainnet
 }
 
 
@@ -46,12 +54,15 @@ def get_chain_id(chain_name: str, chain_id_map: Dict[str, int]) -> int:
     if chain_name_lower in SPECIAL_CHAIN_IDS:
         return SPECIAL_CHAIN_IDS[chain_name_lower]
 
+    # Check if chain name needs mapping
+    mapped_chain_name = CHAIN_NAME_MAPPING.get(chain_name_lower, chain_name_lower)
+
     # Check chainlist mapping
-    if chain_name_lower in chain_id_map:
-        return chain_id_map[chain_name_lower]
+    if mapped_chain_name in chain_id_map:
+        return chain_id_map[mapped_chain_name]
 
     # Default to 0 if not found
-    print(f"Warning: No chainId found for '{chain_name}', using 0")
+    print(f"Warning: No chainId found for '{chain_name}' (mapped: '{mapped_chain_name}'), using 0")
     return 0
 
 
